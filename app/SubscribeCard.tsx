@@ -11,9 +11,11 @@ export default function SubscribeCard() {
   ];
 
   return (
-    <section className="flex h-[641px] w-[928px] grow rounded-[36px] bg-white  py-[24px] pl-[64px] pr-[24px]">
+    <section className="flex h-[641px] w-[928px] grow rounded-[36px] bg-white pl-[64px] pr-[24px]">
       <div className="flex flex-col justify-start ">
-        <h2 className="mt-[97px] text-[56px] leading-[56px]">Stay updated!</h2>
+        <h2 className="mt-[97px] text-[56px] font-bold leading-none">
+          Stay updated!
+        </h2>
 
         <p className="mt-[24px] leading-[24px]">
           Join 60,000+ product managers receiving monthly updates on:

@@ -17,7 +17,7 @@ export default function ConfirmedCard(props: ConfirmedCardProps) {
     <div className="flex h-[520px] w-[504px] grow flex-col items-stretch  rounded-[36px] bg-white px-[64px]">
       <Image src={iconSuccess} alt={"Success"} className="mt-[48px]" />
 
-      <h2 className="mt-[40px] text-[56px] leading-none">
+      <h2 className="mt-[40px] text-[56px] font-bold leading-none">
         Thanks for subscribing!
       </h2>
 

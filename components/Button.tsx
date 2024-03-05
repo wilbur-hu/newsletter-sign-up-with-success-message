@@ -1,5 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import style from "./Button.module.css";
 
 export type ButtonProps = {
   type?: "button" | "submit" | "reset";
@@ -14,7 +15,8 @@ export default function Button(props: ButtonProps) {
       onClick={props.onClick}
       type={props.type}
       className={cn(
-        "btn-bg-vermillion-gradient h-[56px] rounded-[8px] bg-dark-navy font-bold text-white",
+        "h-[56px] rounded-[8px] bg-dark-navy font-bold text-white",
+        style.btnStyle,
         props.className,
       )}
     >
