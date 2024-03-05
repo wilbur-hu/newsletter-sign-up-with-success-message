@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "dark-navy": "#242742",
+        "pale-navy": "#36384D",
+        vermillion: "#FF6155",
+      },
     },
   },
   plugins: [],
